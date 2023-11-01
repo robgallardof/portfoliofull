@@ -92,9 +92,9 @@ function LandingUI({ theme, drawerOpen, classes }: LandingUIPops) {
                   <button className={classes.resumeBtn}>Download CV</button>
                 </a>
               )}
-              <NavLink to='/#contacts' smooth={true}>
+              <a href="https://www.linkedin.com/in/robgallardof/" target="_blank" rel="noreferrer">
                 <button className={classes.contactBtn}>Contact</button>
-              </NavLink>
+              </a>
             </div>
           </div>
         </div>

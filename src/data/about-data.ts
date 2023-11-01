@@ -1,10 +1,11 @@
 import { AboutDataType } from "../types/data-type";
 
 export const aboutData: AboutDataType = {
-  title: "Who I am",
+  title: "About Me",
   description1:
-    "My name is ABU SAID. I'm a web designer and developer based in Dhaka, Bangladesh.",
-  description2:
-    "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    "👋 Hello! I'm Roberto Gallardo, a passionate Full Stack software developer with experience in a wide range of technologies.",
+    description2:
+    "💻 Primary focus: Backend development using C# with Visual Studio Code.\n🎨 Additional skills: Frontend development with JavaScript, React, Vue.js, and Node.js.\n🔌 Socket Experience: Worked with sockets for real-time communication implementation.\n🎨 UI/UX Experience: Implementation of design standards using Figma.\n📲 Mobile Development: Creating mobile applications using React Native CLI and Expo.\n🌐 Service Integration: Implementing REST APIs and SOAP protocols.\n🔧 Code Management: Experience in code versioning with Git.\n📚 Commitment: Always learning and staying updated with the latest technologies and market trends.",  
   image: 1,
 };
+

@@ -24,10 +24,10 @@ function HomePage() {
       <Experience />
       <Skills />
       <Certificate />
-      <Projects />
-      <Education />
-      <Blog />
-      <Contacts />
+      {/* <Projects />*/}
+      <Education /> 
+      {/* <Blog /> */}
+      {/* <Contacts /> */}
     </div>
   );
 }

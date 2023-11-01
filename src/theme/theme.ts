@@ -15,10 +15,10 @@ export const theLightTheme: ThemeDataType = {
 
 export const theDarkTheme: ThemeDataType = {
   type: "dark",
-  primary: "#1D9BF0",
-  quaternary: "#1E2732",
+  primary: "#1DB954", 
+  quaternary: "#1A1A1A", 
   quaternaryLight: "#8b98a5",
-  secondary: "#15202B",
+  secondary: "#121212", 
   tertiary: "#EFF3F4",
   buttonColor: "#8B98A5",
   contactsimg: contactsGreen,

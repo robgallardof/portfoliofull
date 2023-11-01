@@ -1,8 +1,8 @@
 import { ContactsData } from "../types/data-type";
 
 export const contactsData: ContactsData = {
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Middle Badda, Dhaka, Bangladesh - 1212 ",
+  email: "robgallardofl@gmail.com",
+  phone: "+522292088490",
+  address: "Guadalajara, Jalisco, México",
   sheetAPI: "",
 };

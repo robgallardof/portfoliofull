@@ -67,7 +67,7 @@ const Certificate = () => {
                 }}>
                 <Typography>{item.title}</Typography>
                 <IconButton>
-                  <Link href={item.link}>
+                  <Link href={item.link} target="_blank" rel="noopener noreferrer">
                     <HiExternalLink />
                   </Link>
                 </IconButton>

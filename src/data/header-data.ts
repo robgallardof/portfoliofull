@@ -1,12 +1,12 @@
 import { HeaderDataType } from "../types/data-type";
 
 export const headerData: HeaderDataType = {
-  name: "ABU SAID",
+  name: "RobertoGallardo",
   title: "Hello! I am",
   desciption:
-    "Hello! I am ABU SAID, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. ",
-  image: "https://i.ibb.co/ZmdNH6x/abu-said.jpg",
-  imagebw: "https://i.ibb.co/Cw2Xp90/abu-said-bw.jpg",
+    "Roberto Gallardo, a passionate Full Stack software developer with experience in a wide range of technologies. ",
+  image: "https://i.imgur.com/zrNPkxk.jpg",
+  imagebw: "",
   resumePdf:
-    "https://docs.google.com/document/d/1OmxnrxHbrfQkL7e3BG40HgSmYCWzNSxo9Wa-kOPVPSc/edit?usp=sharing",
+    "https://drive.google.com/file/d/1t6dDRS8eUUbGuqnL_GLRlSxei_NZq7-W/view?usp=sharing",
 };

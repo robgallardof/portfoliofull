@@ -10,81 +10,107 @@ import certificate9 from "../assets/certificate/certificate09.jpg";
 import certificate10 from "../assets/certificate/certificate10.png";
 import certificate11 from "../assets/certificate/certificate11.jpg";
 import certificate12 from "../assets/certificate/certificate12.jpg";
+import certificate13 from "../assets/certificate/certificate13.jpg";
+import certificate14 from "../assets/certificate/certificate14.jpg";
+import certificate15 from "../assets/certificate/certificate15.jpg";
+import certificate16 from "../assets/certificate/certificate16.jpg";
 import { CertificateDataType } from "../types/data-type";
 
 export const certificateData: CertificateDataType[] = [
   {
-    id: "02",
-    title: "Advanced SQL",
-    image: certificate2,
-    link: "https://olympus1.mygreatlearning.com/course_certificate/JPVHJLVW",
-  },
-
-  {
-    id: "05",
-    title: "Succeeding in Full Stack and Front End",
-    image: certificate5,
-    link: "https://www.linkedin.com/learning/certificates/6a8e1e26ca1461fa8de47a87d06e9f6c0d0fafcc5cc53b1b7b8fb2a0437a1ecc",
-  },
-
-  {
-    id: "07",
-    title: "Web Scraping with Python",
-    image: certificate7,
-    link: "https://olympus1.greatlearning.in/course_certificate/BCLHKCGB",
-  },
-  {
-    id: "08",
-    title: "Oracle SQL",
-    image: certificate8,
-    link: "https://olympus1.mygreatlearning.com/course_certificate/NMXQFEGR",
-  },
-  {
-    id: "09",
-    title: "SQL Projects for Beginners",
-    image: certificate9,
-    link: "https://olympus1.mygreatlearning.com/course_certificate/BZTLLLBC",
-  },
-  {
-    id: "06",
-    title: "Programming Foundations: Databases",
-    image: certificate6,
-    link: "https://www.linkedin.com/learning/certificates/e4af56f73e73d062725de61ad945d2d87c6387947ab36365002bb55856aee1ec",
-  },
-  {
-    id: "12",
-    title: "Complete web development with Programming hero",
-    image: certificate12,
-    link: "https://drive.google.com/file/d/1e_AdM2-6f_nAfn6NXNXONDdSyNW-FZ1x/view",
-  },
-  {
     id: "01",
-    title: "ReactJS for Beginners",
+    title: "Connecting to MongoDB in C#",
     image: certificate1,
-    link: "https://certificates.simplicdn.net/share/2995717_1636118401.pdf",
+    link: "https://learn.mongodb.com/c/C07-pO2qST-rzeApxWIzgw",
   },
   {
-    id: "10",
-    title: " Theoretical and practical Javascript",
-    image: certificate10,
-    link: "https://www.sololearn.com/Certificate/CT-GTM1MUJ4/png",
+    id: "02",
+    title: "MongoDB Aggregation with C#",
+    image: certificate2,
+    link: "https://learn.mongodb.com/c/b2QixvjXRUOyWl6rUBQV2Q",
   },
   {
     id: "03",
-    title: "Programming Foundations: Fundamentals",
+    title: "MongoDB CRUD Operations in C#",
     image: certificate3,
-    link: "https://www.linkedin.com/learning/certificates/c506fccfaaeba792cfde6ad89a10df65ece487250c8603a7e66f720739b1bbcf",
-  },
-  {
-    id: "11",
-    title: "Theoretical and practical HTML",
-    image: certificate11,
-    link: "https://www.sololearn.com/Certificate/CT-HCDBVC4Y/jpg",
+    link: "https://learn.mongodb.com/c/Y4cj8B2MSuCdO2_anIljDA",
   },
   {
     id: "04",
-    title: "HTML Essential Training",
+    title: "Using MongoDB with C#",
     image: certificate4,
-    link: "https://www.linkedin.com/learning/certificates/d43d60fba3892a79f0ddd18a574fe4f97a9c89e52bc98734dd3cf8ebe3f300e8",
+    link: "https://learn.mongodb.com/c/mpqHVFHUTleiJnVqG8iXuA",
+  },
+  {
+    id: "05",
+    title: "Scrum Developer",
+    image: certificate5,
+    link: "https://www.scrum-institute.org/badges/19418805267196",
+  },
+  {
+    id: "06",
+    title: "CSS (Basic)",
+    image: certificate6,
+    link: "https://www.hackerrank.com/certificates/65ddd9469beb",
+  },
+  {
+    id: "07",
+    title: "JavaScript (Intermediate)",
+    image: certificate7,
+    link: "https://www.hackerrank.com/certificates/048dfcaa6bb7",
+  },
+  {
+    id: "08",
+    title: "Node (Basic)",
+    image: certificate8,
+    link: "https://www.hackerrank.com/certificates/426ae976f878",
+  },
+  {
+    id: "09",
+    title: "Node.js (Intermediate)",
+    image: certificate9,
+    link: "https://www.hackerrank.com/certificates/60063d463205",
+  },
+  {
+    id: "10",
+    title: "Problem Solving (Basic)",
+    image: certificate10,
+    link: "https://www.hackerrank.com/certificates/390d0c961629",
+  },
+  {
+    id: "11",
+    title: "Problem Solving (Intermediate)",
+    image: certificate11,
+    link: "https://www.hackerrank.com/certificates/68be3f847d9d",
+  },
+  {
+    id: "12",
+    title: "React (Basic)",
+    image: certificate12,
+    link: "https://www.hackerrank.com/certificates/deacd62dfb4f",
+  },
+  {
+    id: "13",
+    title: "Rest API (Intermediate)",
+    image: certificate13,
+    link: "https://www.hackerrank.com/certificates/3beab8a77c18",
+  },
+  {
+    id: "14",
+    title: "SQL (Advanced)",
+    image: certificate14,
+    link: "https://www.hackerrank.com/certificates/fb778ddf8401",
+  },
+  {
+    id: "15",
+    title: "SQL (Basic)",
+    image: certificate15,
+    link: "https://www.hackerrank.com/certificates/e4e2b91d8a27",
+  },
+  {
+    id: "16",
+    title: "SQL (Intermediate)",
+    image: certificate16,
+    link: "https://www.hackerrank.com/certificates/60cbf0e3aeee",
   },
 ];
