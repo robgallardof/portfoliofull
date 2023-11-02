@@ -1,7 +1,7 @@
 import { Drawer } from "@mui/material";
 import React from "react";
 import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
-import { FaFolderOpen, FaUser } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 import { HiDocumentText } from "react-icons/hi";
 import { IoClose, IoHomeSharp, IoMenuSharp } from "react-icons/io5";
 import { MdPhone } from "react-icons/md";
@@ -71,7 +71,6 @@ function NavbarUI({
                 </div>
               </NavLink>
             </Fade>
-
             <Fade left>
               <NavLink to='/#about' smooth={true}>
                 <div className={classes.drawerItem}>
@@ -80,7 +79,6 @@ function NavbarUI({
                 </div>
               </NavLink>
             </Fade>
-
             <Fade left>
               <NavLink to='/#resume' smooth={true}>
                 <div className={classes.drawerItem}>
@@ -89,7 +87,6 @@ function NavbarUI({
                 </div>
               </NavLink>
             </Fade>
-
             <Fade left>
               <div className={classes.drawerItem} onClick={changeTheme}>
                 {isDark ? (
@@ -102,23 +99,11 @@ function NavbarUI({
                 </span>
               </div>
             </Fade>
-
             <Fade left>
-              <NavLink to='/#blog' smooth={true}>
-                <div className={classes.drawerItem}>
-                  <FaFolderOpen className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Blog</span>
-                </div>
-              </NavLink>
-            </Fade>
-
-            <Fade left>
-              <NavLink to='/#contacts' smooth={true}>
-                <div className={classes.drawerItem}>
-                  <MdPhone className={classes.drawerIcon} />
-                  <span className={classes.drawerLinks}>Contact</span>
-                </div>
-              </NavLink>
+              <div className={classes.drawerItem} onClick={() => window.open('https://www.linkedin.com/in/robgallardof', '_blank')}>
+                <MdPhone className={classes.drawerIcon} />
+                <span className={classes.drawerLinks}>Contact</span>
+              </div>
             </Fade>
           </div>
         </div>
