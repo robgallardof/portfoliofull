@@ -2,7 +2,7 @@
   "name": "developer-portfolio-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://robgallardof.github.io/portfoliofull",
+  "homepage": "https://robertogallardo.dev",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
